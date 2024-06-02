@@ -1,11 +1,18 @@
 # Firewall-Lab
 This repo have the purpose to provide the needed configuration files used to run a basic laboratory lesson about firewalls
+To read the repo and perform the exercises-> 
 
 ## Requirements
-It is required to install Mininet to run the custom topologies 
+The basic requirements to run a custom topology and play with the linux firewall are Mininet and iptables. The custom topology are implemented using python APIs so also python is required.
 ```
-sudo apt-get install mininet
+sudo apt-get install mininet iptables iptables-persistent python3
 ```
+To follow along the various exercises proposed in the report you'll need a few more packages to perform specific commands:
+```
+sudo apt install python3-scapy netcat hping3 pip libnetfilter-queue-dev tcpdump nmap psmisc
+sudo pip3 install LibnetfilterQueue —break-system-packages 
+```
+*Note:* The flag "—break-system-packages" should be needed only if working on a debian machine
 
 ## Usage 
 To run a topology use the command
