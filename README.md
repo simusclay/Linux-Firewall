@@ -1,5 +1,5 @@
 # Firewall-Lab
-This repo have the purpose to provide the needed configuration files used to run a basic laboratory lesson about firewalls
+This repo has the purpose to provide the needed configuration files used to run a basic laboratory lesson about firewalls
 
 To read the report and perform the exercises-> [Report](https://docs.google.com/document/d/1WYed3pWs76Oq41XXqbZ48H1vB2qYjUYB4goEMtY3PUY/edit?usp=sharing)
 
